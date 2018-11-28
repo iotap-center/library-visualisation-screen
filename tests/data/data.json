@@ -1,0 +1,23 @@
+{
+	"answers" : {
+		"wtw1" : "string",
+		"wtw2" : "string",
+		"wtw3" : "string",
+		"wtw4" : "string",
+		"wtw5" : "string"
+	},
+	"visits" : {
+		"cube" : 0,
+		"ecos1" : 0,
+		"ecos2" : 0,
+		"ecos3" : 0,
+		"diss1" : 0,
+		"diss2" : 0,
+		"diss3" : 0,
+		"wtw1" : 0,
+		"wtw2" : 0,
+		"wtw3" : 0,
+		"wtw4" : 0,
+		"wtw5" : 0
+	}
+}

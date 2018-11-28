@@ -1,0 +1,32 @@
+{
+	"name" : "mau-iotap/library-visualisation-screen",
+	"description" : "Library visualisation screen",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Johan Holmberg",
+			"email" : "johan.holmberg@mau.se"
+		}
+	],
+	"require" : {
+		"php" : ">=5.5.0",
+		"slim/slim" : "^3.1",
+		"monolog/monolog" : "^1.17",
+		"slim/twig-view": "^2.4",
+		"aws/aws-sdk-php": "^3.77"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : ">=4.8 < 6.0"
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Tests\\" : "tests/"
+		}
+	},
+	"config" : {
+		"process-timeout" : 0
+	},
+	"scripts" : {
+		"start" : "php -S localhost:8080 -t public",
+		"test" : "phpunit"
+	}
+}
