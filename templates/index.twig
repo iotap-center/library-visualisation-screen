@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>IoTaP viz screen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../public/style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script
@@ -14,13 +14,20 @@
   crossorigin="anonymous"></script>
 </head>
 <body>
-    <img src="">
-    <h1>People have the power</h1>
-    <h2>We have your data</h2>
-    <p>This is how you spent your time in the exhibition</p>
+    <div id="graph-screen">
+        <img src="" id="banner">
+        <h1>People have the power</h1>
+        <h2>We have your data</h2>
+        <p>This is how you spent your time in the exhibition</p>
 
-    <div id="my-graph"></div>
+        <div id="my-graph"></div>
+    </div>
+    
+    <div id="waiting-screen">
+        <span class="helper"></span>
+        <img src="/images/eye.gif" id="eye" >
+    </div>
 
-    <script src="../public/main.js"></script>
+    <script src="/main.js"></script>
 </body>
 </html>

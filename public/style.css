@@ -1,13 +1,38 @@
 #my-graph {
-    width: 600px;
-    height: 500px;
-    margin: auto;
+    display: inline-block;
 }
-  
+
+#graph-screen {
+    height: 100%;
+	padding: 0;
+	padding-top: 50px;
+	margin: 0;
+	display: none;
+}
+
+#waiting-screen {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+#eye {
+	vertical-align: middle;
+}
+
+.helper {
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+ 
+html,
 body {
 font-family: 'IBM Plex Sans', sans-serif;
-margin: auto;
 text-align: center;
-width: 800px;
-height: 600px;
+height: 100%;
+margin: 0;
+padding: 0;
 }
