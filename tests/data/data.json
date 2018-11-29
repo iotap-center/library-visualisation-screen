@@ -1,5 +1,5 @@
 {
-	"uploaded": 0, // Timestamp
+	"uploaded": 0,
 	"answers" : {
 		"wtw1" : "string",
 		"wtw2" : "string",
